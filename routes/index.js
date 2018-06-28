@@ -26,4 +26,8 @@ router.get('/buy', (req, res) => {
   res.render('buy');
 })
 
+router.get('/host', (req, res) => {
+  res.render('host');
+})
+
 module.exports = router;

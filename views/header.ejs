@@ -1,10 +1,36 @@
+
 <div style="text-align:left;background-color: #ffffff;display:  grid;grid-template-columns: 50% 50%;" >
     <a href="/"><img  style="margin-left:4%;margin-top:2%" src="images/CludRestHomeLogo.svg" /></a>
-    <div class="header-btn-grp">
+    <div id="btn" class="header-btn-grp" style="">
         <button class="headerButton" id="schoolName" onclick="location.href='/buy'">BUY </button>
         <button class="headerButton" id="schoolName" onclick="location.href='/invest'">Invest </button>
-        <button class="headerButton" id="schoolName" href="#!">Host </button>
+        <button class="headerButton" id="schoolName" onclick="location.href='/host'">Host </button>
         <button class="headerButton" id="schoolName" onclick="location.href='/about-us'">About Us </button>
         <button class="headerButton" id="schoolName" onclick="location.href='/contact-us'">Contact </button>
     </div>
+    <div id="btn-menu" class="header-btn-grp" style="margin-top: 3%; margin-left: 83%;" >
+        <a href="javascript: openNav()"><img src="https://png.icons8.com/material/50/000000/menu.png" style="cursor: pointer" ></a>
+    </div>
 </div>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="/buy">BUY</a>
+  <a href="/invest">Invest</a>
+  <a href="/host">Host</a>
+  <a href="/about-us">About Us</a>
+  <a href="contact-us">Contact</a>
+</div>
+
+
+<script>
+    /* Set the width of the side navigation to 250px */
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "100%    ";
+    }
+
+    /* Set the width of the side navigation to 0 */
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
