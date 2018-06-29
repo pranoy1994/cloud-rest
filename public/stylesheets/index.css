@@ -2,6 +2,11 @@
     font-family: "QS";
     src: url("/fonts/Quite Something DEMO.otf");
 }
+
+@font-face{
+    font-family: "BTM";
+    src: url("/fonts/beyond_the_mountains.ttf");
+}
 .headerButton {
     height: 39px;
     border-radius: 5px;
@@ -17,13 +22,13 @@
 
 .header-btn-grp {
     margin-top: 3%;
-    margin-left: 17%;
+    margin-left: 4%;
 }
 
 #btn-menu {
     display: none;
 }
-@media screen and (max-width: 1245px) {
+@media screen and (max-width: 1253px) {
     #btn{
         display: none;
     }
@@ -362,7 +367,52 @@ ol {
     padding-top: 45%;
 }
 
+#rent {
+    text-align: center;
+    padding-top: 2%;
 
+}
+
+#rent > p:nth-child(1) {
+    object-fit: contain;
+    font-family: QS;
+    font-size: 72px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4c9142;
+}
+
+#rent > p:nth-child(2) {
+    object-fit: contain;
+    font-family: BTM;
+    font-size: 108px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4c9142;
+    margin-top: -3%;
+}
+
+#rent > p:nth-child(3) {
+    object-fit: contain;
+    font-family: QS;
+    font-size: 72px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4c9142;
+    margin-top: -9%;
+}
 
 
 
